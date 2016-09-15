@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Javascript(Попов-53)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    	<script type="text/javascript">
+
+           
+        function UserDetails(){
+            document.write("Название браузера: " + navigator.userAgent + "<br/>");   
+            document.write("язык браузера: " + navigator.language + "<br/>");
+           document.write("Название ОС: " + navigator.oscpu + "<br/>");    
+            document.write("Включены ли куки: " + navigator.cookieEnabled + "<br/>");   
+            document.write("Подключение к сети есть?: " + navigator.onLine + "<br/><hr>");   
+             document.write("Разрешение монитора: " + screen.width + "x"+ screen.height+"<br/>");            
+             document.write("Глубина цвета: " + screen.colorDepth + "<br/><hr>");          
+            document.write("Адрес загруженной страницы: " + location.href + "<br/>");  
+            
+    }   
+        
+       UserDetails();
+ 
+ //	   var option;
+ //          for (option in location){
+ //               document.write(option + " : " + location[option] + "<br/>");
+ //          }
+       	</script>    
+    </body>
+</html>
